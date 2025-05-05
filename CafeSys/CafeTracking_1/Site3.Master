@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site3.master.cs" Inherits="CafeTracking_1.Site3" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <%--bootstrap css--%>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <%--datatables css--%>
+    <link href="datatables/css/dataTables.dataTables.min.css" rel="stylesheet" />
+    <%--fontawesome css--%>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <%--our custom--%>
+    <link href="css/customstylesheet.css" rel="stylesheet" />
+
+    <%--jquery--%>
+    <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <%--popper--%>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <%--bootstrap js--%>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand" href="#">
+                   <img src="imgs/coffee.jpg" width="30" height="30" />
+                  Sena's Coffee House 
+               </a>
+               
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav mr-auto">
+                       <li class="nav-item active">
+                           <a class="nav-link" href="homepage.aspx"> Home </a>
+                       </li>
+                   </ul>
+                   <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <asp:LinkButton CssClass="nav-link" ID="LinkButton5" runat="server" OnClick="LinkButton5_Click"> 
+                                View Menus 
+                            </asp:LinkButton>
+                        </li>
+                       <li class="nav-item active">
+                            <asp:LinkButton CssClass="nav-link" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click"> 
+                                Basket 
+                            </asp:LinkButton>
+                        </li>
+                       <li class="nav-item active">
+                            <asp:LinkButton CssClass="nav-link" ID="LinkButton3" runat="server" OnClick="LinkButton3_Click"> 
+                                Logout 
+                            </asp:LinkButton>
+                       </li>
+                       <li class="nav-item active">
+                             <asp:LinkButton CssClass="nav-link" ID="LinkButton1" runat="server" OnClick="LinkButton6_Click"> 
+                                 UpdatePassword 
+                             </asp:LinkButton>
+                       </li>
+                       
+                   </ul>
+               </div>
+           </nav>
+        </div>
+        
+        <div>
+            <!-- Main Content Placeholder -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer id="footer2">
+            <div style="text-align: center;">
+                <a class="footerlinks" href="#" target="_blank"> Thanks for choosing us :) </a>
+            </div>
+        </footer>
+        <footer id="footer1">
+             <div style="text-align: center;" >
+                  <p>&copy; All rights reserved. <a class="footerlinks" href="#" target="_blank text" > Simple Snippets</a></p>
+             </div>
+        </footer>
+    </form>
+</body>
+</html>

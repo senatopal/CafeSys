@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\senat\\source\\repos\\CafeTracking_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{093E9459-3003-4E5B-96BC-8C4C5B6D6CFC}|CafeTracking_1\\CafeTracking_1.csproj|c:\\users\\senat\\source\\repos\\cafetracking_1\\cafetracking_1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{093E9459-3003-4E5B-96BC-8C4C5B6D6CFC}|CafeTracking_1\\CafeTracking_1.csproj|solutionrelative:cafetracking_1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093E9459-3003-4E5B-96BC-8C4C5B6D6CFC}|CafeTracking_1\\CafeTracking_1.csproj|c:\\users\\senat\\source\\repos\\cafetracking_1\\cafetracking_1\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{093E9459-3003-4E5B-96BC-8C4C5B6D6CFC}|CafeTracking_1\\CafeTracking_1.csproj|solutionrelative:cafetracking_1\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\senat\\source\\repos\\CafeTracking_1\\CafeTracking_1\\Web.config",
+              "RelativeDocumentMoniker": "CafeTracking_1\\Web.config",
+              "ToolTip": "C:\\Users\\senat\\source\\repos\\CafeTracking_1\\CafeTracking_1\\Web.config",
+              "RelativeToolTip": "CafeTracking_1\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-05T10:17:31.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "homepage.aspx",
+              "DocumentMoniker": "C:\\Users\\senat\\source\\repos\\CafeTracking_1\\CafeTracking_1\\homepage.aspx",
+              "RelativeDocumentMoniker": "CafeTracking_1\\homepage.aspx",
+              "ToolTip": "C:\\Users\\senat\\source\\repos\\CafeTracking_1\\CafeTracking_1\\homepage.aspx",
+              "RelativeToolTip": "CafeTracking_1\\homepage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-29T16:01:14.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
